@@ -19,11 +19,11 @@
 # Change the file extension to match the format (.xml for XML, etc...)
 #
 ###
-title: "TODO - Your title"
-abbrev: "TODO - Abbreviation"
+title: "Signed MOAS Group (SMG) Based Route Origin Verification and Operational Considerations"
+abbrev: "smg-verification"
 category: info
 
-docname: draft-todo-yourname-protocol-latest
+docname: draft-li-sidrops-smg-verification-latest
 submissiontype: IETF  # also: "independent", "editorial", "IAB", or "IRTF"
 number:
 date:
