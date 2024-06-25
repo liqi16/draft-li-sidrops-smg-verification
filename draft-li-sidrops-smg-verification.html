@@ -7,7 +7,7 @@
 <title>Signed MOAS Group (SMG) Based Route Origin Verification and Operational Considerations</title>
 <meta content="LIQI" name="author">
 <meta content="
-       The Signed MOAS Group (SMG) is a Cryptographic Message Syntax (CMS) protected content type that allows multiple Autonomous Systems (ASes) to collaboratively and securely announce an IP prefix in the Border Gateway Protocol (BGP). This document specifies the SMG-based Route Origin Verification (SMG-ROV) methodology, designed to enhance the security of multi-origin AS (MOAS) scenarios in the BGP. By combining SMG-ROV with ROA-based ROV (ROA-ROV), the document provides a mechanism to distinguish between legitimate MOAS and malicious prefix hijacks, thereby mitigating prefix hijacks and AS forgery.  The document also explains the various BGP security threats that SMG can help address and provides operational considerations associated with SMG-ROV deployment. 
+       The Signed MOAS Group (SMG) is a Cryptographic Message Syntax (CMS) protected content type that allows multiple Autonomous Systems (ASes) to collaboratively and securely announce an IP prefix in the Border Gateway Protocol (BGP). This document specifies the SMG-based Route Origin Verification (SMG-ROV) methodology, designed to enhance the security of multi-origin AS (MOAS) scenarios in the BGP. By combining SMG-ROV with ROA-based ROV (ROA-ROV), the document provides a mechanism to distinguish between legitimate MOAS and malicious prefix hijacks, thereby mitigating prefix hijacks.  The document also explains the various BGP security threats that SMG can help address and provides operational considerations associated with SMG-ROV deployment. 
     " name="description">
 <meta content="xml2rfc 3.21.0" name="generator">
 <meta content="next generation" name="keyword">
@@ -1062,7 +1062,7 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <h1 id="title">Signed MOAS Group (SMG) Based Route Origin Verification and Operational Considerations</h1>
 <section id="section-abstract">
       <h2 id="abstract"><a href="#abstract" class="selfRef">Abstract</a></h2>
-<p id="section-abstract-1">The Signed MOAS Group (SMG) is a Cryptographic Message Syntax (CMS) protected content type that allows multiple Autonomous Systems (ASes) to collaboratively and securely announce an IP prefix in the Border Gateway Protocol (BGP). This document specifies the SMG-based Route Origin Verification (SMG-ROV) methodology, designed to enhance the security of multi-origin AS (MOAS) scenarios in the BGP. By combining SMG-ROV with ROA-based ROV (ROA-ROV), the document provides a mechanism to distinguish between legitimate MOAS and malicious prefix hijacks, thereby mitigating prefix hijacks and AS forgery.  The document also explains the various BGP security threats that SMG can help address and provides operational considerations associated with SMG-ROV deployment.<a href="#section-abstract-1" class="pilcrow">¶</a></p>
+<p id="section-abstract-1">The Signed MOAS Group (SMG) is a Cryptographic Message Syntax (CMS) protected content type that allows multiple Autonomous Systems (ASes) to collaboratively and securely announce an IP prefix in the Border Gateway Protocol (BGP). This document specifies the SMG-based Route Origin Verification (SMG-ROV) methodology, designed to enhance the security of multi-origin AS (MOAS) scenarios in the BGP. By combining SMG-ROV with ROA-based ROV (ROA-ROV), the document provides a mechanism to distinguish between legitimate MOAS and malicious prefix hijacks, thereby mitigating prefix hijacks.  The document also explains the various BGP security threats that SMG can help address and provides operational considerations associated with SMG-ROV deployment.<a href="#section-abstract-1" class="pilcrow">¶</a></p>
 </section>
 <section class="note rfcEditorRemove" id="section-note.1">
       <h2 id="name-about-this-document">
@@ -1176,7 +1176,7 @@ svg :is([fill="white"], [fill^="#fff"]) {
       <h2 id="name-introduction">
 <a href="#section-1" class="section-number selfRef">1. </a><a href="#name-introduction" class="section-name selfRef">Introduction</a>
       </h2>
-<p id="section-1-1">TODO Introduction<a href="#section-1-1" class="pilcrow">¶</a></p>
+<p id="section-1-1">The Signed MOAS Group (SMG) is a Resource Public Key Infrastructure (RPKI) object that allows multiple Autonomous Systems (ASes) to collaboratively and securely announce an IP prefix. This document specifies an SMG-based Route Origin Verification (SMG-ROV) procedure and how it can be combined with ROA-based ROV (ROA-ROV) [RFC6811][RFC9319] to facilitate an integrated strategy for distinguishing legitimate Multi-Origin AS (MOAS) announcements from malicious prefix hijacks. The various BGP security threats that SMG-ROV helps to address are described in Section 6. Operational considerations associated with SMG-ROV deployment are discussed in Section 7.<a href="#section-1-1" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="conventions-and-definitions">
