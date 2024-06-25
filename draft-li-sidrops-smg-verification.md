@@ -51,10 +51,23 @@ TODO Introduction
 {::boilerplate bcp14-tagged}
 
 
+# Terminology and List of Acronyms
+
+The following list includes the terms used with special meanings and acronyms.
+
+# Signed MOAS Group (SMG) and Validated SMG Payload (VMP)
+
+# Route Origin Verification Algorithms Using ROA and SMG
+
+# Mitigation Policy
+
+# BGP Security Threats Addressed by SMG-ROV
+
+# Operational Considerations
+
 # Security Considerations
 
 TODO Security
-
 
 # IANA Considerations
 
