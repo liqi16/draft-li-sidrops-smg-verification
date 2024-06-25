@@ -36,14 +36,14 @@ informative:
 
 --- abstract
 
-The Signed MOAS Group (SMG) is a Cryptographic Message Syntax (CMS) protected content type that allows multiple Autonomous Systems (ASes) to collaboratively and securely announce an IP prefix in the Border Gateway Protocol (BGP). This document specifies the SMG-based Route Origin Verification (SMG-ROV) methodology, designed to enhance the security of multi-origin AS (MOAS) scenarios in the BGP. By combining SMG-ROV with ROA-based ROV (ROA-ROV), the document provides a mechanism to distinguish between legitimate MOAS and malicious prefix hijacks, thereby mitigating prefix hijacks and AS forgery.  The document also explains the various BGP security threats that SMG can help address and provides operational considerations associated with SMG-ROV deployment.
+The Signed MOAS Group (SMG) is a Cryptographic Message Syntax (CMS) protected content type that allows multiple Autonomous Systems (ASes) to collaboratively and securely announce an IP prefix in the Border Gateway Protocol (BGP). This document specifies the SMG-based Route Origin Verification (SMG-ROV) methodology, designed to enhance the security of multi-origin AS (MOAS) scenarios in the BGP. By combining SMG-ROV with ROA-based ROV (ROA-ROV), the document provides a mechanism to distinguish between legitimate MOAS and malicious prefix hijacks, thereby mitigating prefix hijacks.  The document also explains the various BGP security threats that SMG can help address and provides operational considerations associated with SMG-ROV deployment.
 
 
 --- middle
 
 # Introduction
 
-TODO Introduction
+The Signed MOAS Group (SMG) is a Resource Public Key Infrastructure (RPKI) object that allows multiple Autonomous Systems (ASes) to collaboratively and securely announce an IP prefix. This document specifies an SMG-based Route Origin Verification (SMG-ROV) procedure and how it can be combined with ROA-based ROV (ROA-ROV) [RFC6811][RFC9319] to facilitate an integrated strategy for distinguishing legitimate Multi-Origin AS (MOAS) announcements from malicious prefix hijacks. The various BGP security threats that SMG-ROV helps to address are described in Section 6. Operational considerations associated with SMG-ROV deployment are discussed in Section 7.
 
 
 # Conventions and Definitions
