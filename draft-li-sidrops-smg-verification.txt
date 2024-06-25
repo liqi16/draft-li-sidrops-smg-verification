@@ -80,9 +80,15 @@ Table of Contents
 
    1.  Introduction
    2.  Conventions and Definitions
-   3.  Security Considerations
-   4.  IANA Considerations
-   5.  Normative References
+   3.  Terminology and List of Acronyms
+   4.  Signed MOAS Group (SMG) and Validated SMG Payload (VMP)
+   5.  Route Origin Verification Algorithms Using ROA and SMG
+   6.  Mitigation Policy
+   7.  BGP Security Threats Addressed by SMG-ROV
+   8.  Operational Considerations
+   9.  Security Considerations
+   10. IANA Considerations
+   11. Normative References
    Acknowledgments
    Author's Address
 
@@ -98,15 +104,30 @@ Table of Contents
    BCP 14 [RFC2119] [RFC8174] when, and only when, they appear in all
    capitals, as shown here.
 
-3.  Security Considerations
+3.  Terminology and List of Acronyms
+
+   The following list includes the terms used with special meanings and
+   acronyms.
+
+4.  Signed MOAS Group (SMG) and Validated SMG Payload (VMP)
+
+5.  Route Origin Verification Algorithms Using ROA and SMG
+
+6.  Mitigation Policy
+
+7.  BGP Security Threats Addressed by SMG-ROV
+
+8.  Operational Considerations
+
+9.  Security Considerations
 
    TODO Security
 
-4.  IANA Considerations
+10.  IANA Considerations
 
    This document has no IANA actions.
 
-5.  Normative References
+11.  Normative References
 
    [RFC2119]  Bradner, S., "Key words for use in RFCs to Indicate
               Requirement Levels", BCP 14, RFC 2119,

@@ -1135,19 +1135,37 @@ svg :is([fill="white"], [fill^="#fff"]) {
             <p id="section-toc.1-1.2.1" class="keepWithNext"><a href="#section-2" class="auto internal xref">2</a>.  <a href="#name-conventions-and-definitions" class="internal xref">Conventions and Definitions</a></p>
 </li>
           <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.3">
-            <p id="section-toc.1-1.3.1" class="keepWithNext"><a href="#section-3" class="auto internal xref">3</a>.  <a href="#name-security-considerations" class="internal xref">Security Considerations</a></p>
+            <p id="section-toc.1-1.3.1" class="keepWithNext"><a href="#section-3" class="auto internal xref">3</a>.  <a href="#name-terminology-and-list-of-acr" class="internal xref">Terminology and List of Acronyms</a></p>
 </li>
           <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.4">
-            <p id="section-toc.1-1.4.1"><a href="#section-4" class="auto internal xref">4</a>.  <a href="#name-iana-considerations" class="internal xref">IANA Considerations</a></p>
+            <p id="section-toc.1-1.4.1"><a href="#section-4" class="auto internal xref">4</a>.  <a href="#name-signed-moas-group-smg-and-v" class="internal xref">Signed MOAS Group (SMG) and Validated SMG Payload (VMP)</a></p>
 </li>
           <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.5">
-            <p id="section-toc.1-1.5.1"><a href="#section-5" class="auto internal xref">5</a>.  <a href="#name-normative-references" class="internal xref">Normative References</a></p>
+            <p id="section-toc.1-1.5.1"><a href="#section-5" class="auto internal xref">5</a>.  <a href="#name-route-origin-verification-a" class="internal xref">Route Origin Verification Algorithms Using ROA and SMG</a></p>
 </li>
           <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.6">
-            <p id="section-toc.1-1.6.1"><a href="#appendix-A" class="auto internal xref"></a><a href="#name-acknowledgments" class="internal xref">Acknowledgments</a></p>
+            <p id="section-toc.1-1.6.1"><a href="#section-6" class="auto internal xref">6</a>.  <a href="#name-mitigation-policy" class="internal xref">Mitigation Policy</a></p>
 </li>
           <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.7">
-            <p id="section-toc.1-1.7.1"><a href="#appendix-B" class="auto internal xref"></a><a href="#name-authors-address" class="internal xref">Author's Address</a></p>
+            <p id="section-toc.1-1.7.1"><a href="#section-7" class="auto internal xref">7</a>.  <a href="#name-bgp-security-threats-addres" class="internal xref">BGP Security Threats Addressed by SMG-ROV</a></p>
+</li>
+          <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.8">
+            <p id="section-toc.1-1.8.1"><a href="#section-8" class="auto internal xref">8</a>.  <a href="#name-operational-considerations" class="internal xref">Operational Considerations</a></p>
+</li>
+          <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.9">
+            <p id="section-toc.1-1.9.1"><a href="#section-9" class="auto internal xref">9</a>.  <a href="#name-security-considerations" class="internal xref">Security Considerations</a></p>
+</li>
+          <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.10">
+            <p id="section-toc.1-1.10.1"><a href="#section-10" class="auto internal xref">10</a>. <a href="#name-iana-considerations" class="internal xref">IANA Considerations</a></p>
+</li>
+          <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.11">
+            <p id="section-toc.1-1.11.1"><a href="#section-11" class="auto internal xref">11</a>. <a href="#name-normative-references" class="internal xref">Normative References</a></p>
+</li>
+          <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.12">
+            <p id="section-toc.1-1.12.1"><a href="#appendix-A" class="auto internal xref"></a><a href="#name-acknowledgments" class="internal xref">Acknowledgments</a></p>
+</li>
+          <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.13">
+            <p id="section-toc.1-1.13.1"><a href="#appendix-B" class="auto internal xref"></a><a href="#name-authors-address" class="internal xref">Author's Address</a></p>
 </li>
         </ul>
 </nav>
@@ -1172,26 +1190,69 @@ described in BCP 14 <span>[<a href="#RFC2119" class="cite xref">RFC2119</a>]</s
 appear in all capitals, as shown here.<a href="#section-2-1" class="pilcrow">¶</a></p>
 </section>
 </div>
-<div id="security-considerations">
+<div id="terminology-and-list-of-acronyms">
 <section id="section-3">
-      <h2 id="name-security-considerations">
-<a href="#section-3" class="section-number selfRef">3. </a><a href="#name-security-considerations" class="section-name selfRef">Security Considerations</a>
+      <h2 id="name-terminology-and-list-of-acr">
+<a href="#section-3" class="section-number selfRef">3. </a><a href="#name-terminology-and-list-of-acr" class="section-name selfRef">Terminology and List of Acronyms</a>
       </h2>
-<p id="section-3-1">TODO Security<a href="#section-3-1" class="pilcrow">¶</a></p>
+<p id="section-3-1">The following list includes the terms used with special meanings and acronyms.<a href="#section-3-1" class="pilcrow">¶</a></p>
+</section>
+</div>
+<div id="signed-moas-group-smg-and-validated-smg-payload-vmp">
+<section id="section-4">
+      <h2 id="name-signed-moas-group-smg-and-v">
+<a href="#section-4" class="section-number selfRef">4. </a><a href="#name-signed-moas-group-smg-and-v" class="section-name selfRef">Signed MOAS Group (SMG) and Validated SMG Payload (VMP)</a>
+    </h2>
+</section>
+</div>
+<div id="route-origin-verification-algorithms-using-roa-and-smg">
+<section id="section-5">
+      <h2 id="name-route-origin-verification-a">
+<a href="#section-5" class="section-number selfRef">5. </a><a href="#name-route-origin-verification-a" class="section-name selfRef">Route Origin Verification Algorithms Using ROA and SMG</a>
+    </h2>
+</section>
+</div>
+<div id="mitigation-policy">
+<section id="section-6">
+      <h2 id="name-mitigation-policy">
+<a href="#section-6" class="section-number selfRef">6. </a><a href="#name-mitigation-policy" class="section-name selfRef">Mitigation Policy</a>
+    </h2>
+</section>
+</div>
+<div id="bgp-security-threats-addressed-by-smg-rov">
+<section id="section-7">
+      <h2 id="name-bgp-security-threats-addres">
+<a href="#section-7" class="section-number selfRef">7. </a><a href="#name-bgp-security-threats-addres" class="section-name selfRef">BGP Security Threats Addressed by SMG-ROV</a>
+    </h2>
+</section>
+</div>
+<div id="operational-considerations">
+<section id="section-8">
+      <h2 id="name-operational-considerations">
+<a href="#section-8" class="section-number selfRef">8. </a><a href="#name-operational-considerations" class="section-name selfRef">Operational Considerations</a>
+    </h2>
+</section>
+</div>
+<div id="security-considerations">
+<section id="section-9">
+      <h2 id="name-security-considerations">
+<a href="#section-9" class="section-number selfRef">9. </a><a href="#name-security-considerations" class="section-name selfRef">Security Considerations</a>
+      </h2>
+<p id="section-9-1">TODO Security<a href="#section-9-1" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="iana-considerations">
-<section id="section-4">
+<section id="section-10">
       <h2 id="name-iana-considerations">
-<a href="#section-4" class="section-number selfRef">4. </a><a href="#name-iana-considerations" class="section-name selfRef">IANA Considerations</a>
+<a href="#section-10" class="section-number selfRef">10. </a><a href="#name-iana-considerations" class="section-name selfRef">IANA Considerations</a>
       </h2>
-<p id="section-4-1">This document has no IANA actions.<a href="#section-4-1" class="pilcrow">¶</a></p>
+<p id="section-10-1">This document has no IANA actions.<a href="#section-10-1" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="sec-normative-references">
-<section id="section-5">
+<section id="section-11">
       <h2 id="name-normative-references">
-<a href="#section-5" class="section-number selfRef">5. </a><a href="#name-normative-references" class="section-name selfRef">Normative References</a>
+<a href="#section-11" class="section-number selfRef">11. </a><a href="#name-normative-references" class="section-name selfRef">Normative References</a>
       </h2>
 <dl class="references">
 <dt id="RFC2119">[RFC2119]</dt>
